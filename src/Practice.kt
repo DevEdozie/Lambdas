@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
 //    println(printMyLamba)
     val  name = "Michael"
     val age = 20
-    val details = {name:String,age:Int -> "Name:$name\nAge:$age"
+    val details = {name:String,age:Int -> "Name:$name\nAge:$age"}
     val calculation:(Int,Int) -> Int = {x,y -> x + y}
     var sayCalculation = calculation(1,2)
     println(sayCalculation)
