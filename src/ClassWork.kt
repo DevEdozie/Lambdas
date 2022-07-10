@@ -17,6 +17,18 @@ fun main(args: Array<String>) {
     println(lam4(x)) //10.013
     lam4 = {it + 6.3}
     println(lam4(7)) //13.3
+    //assignment
+
+    var lambda1: (Double) -> Int
+    var lambba2:(Int) -> Double
+    var lambda3:(Int) -> Int
+    var lambda4:(Double) -> Unit
+    //var lambda5
+    lambba2 = {it + 7.1}
+    lambda3 = {(it * 3) - 4}
+    var lambda5 = {x:Int -> x + 56}
+    lambda4 = {println("Hello!")}
+
 
 
 
